@@ -1,0 +1,82 @@
+.fund {
+  padding: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .header {
+    border-bottom: 1px solid black;
+    height: 18vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #012d71;
+    img {
+      align-items: center;
+    }
+  }
+  .contents{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .current{
+          display: flex;
+          flex: 3;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin: 30px;
+        img{
+            height: 20vh;
+            
+        }
+      }
+      .arrow{
+        flex: 3;
+
+        width: 50px;
+        height: 100%;
+      }
+      .proposed{
+        flex: 3;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+          img{
+            height: 20vh;
+            
+          }
+          
+      }
+      .writings3{
+        flex: 2;
+
+          width: 250px;
+          background-color: black;
+          color: white;
+          padding: 20px;
+          border-radius: 20px;
+          p{
+              font-size: 20px;
+          }
+          .head{
+              font-size: 30px;
+              color: red;
+          }
+      }
+      
+  }
+  .button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+}

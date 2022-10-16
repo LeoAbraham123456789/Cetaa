@@ -1,0 +1,45 @@
+.footer {
+  background-color: #012d71;
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .contents {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .writings {
+      color: white;
+      display: flex;
+      flex: 11;
+
+      justify-content: center;
+      flex-direction: column;
+      .first_line{
+          .items{
+            margin: 20px;
+          }
+      }
+      .second_line {
+        display: flex;
+        .items{
+            margin: 20px;
+        }
+      }
+    }
+    .button {
+      font-size: 20px;
+      border-radius: 3px;
+      padding: 10px;
+      flex: 1;
+      background-color: black;
+      cursor: pointer;
+      color: white;
+    }
+  }
+}

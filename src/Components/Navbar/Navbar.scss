@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    .links{
+        padding: 15px;
+        color: red;
+        cursor: pointer;
+        box-shadow: 3px 3px 3px black;
+        margin: 5px;
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+}
